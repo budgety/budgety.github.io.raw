@@ -227,3 +227,12 @@ h1, h2, h3 {
 .list-small {
     font-size:18px !important;
 }
+
+/************************
+ * Footer
+ ************************/
+
+ footer .copy {
+    margin:0;
+    padding: 10px 0;
+ }
