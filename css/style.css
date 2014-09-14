@@ -55,7 +55,7 @@ figcaption {
 
 blockquote p {
     color:#555;
-    font-size: 28px;
+    font-size: 20px;
     line-height:1.8em;
 }
 
@@ -152,22 +152,20 @@ h1, h2, h3 {
 }
 
 .post.post-full .title {
-    font-size:48px;
+    font-size:32px;
 }
 
 .post.post-full h2 {
-    font-size:38px;
+    color: #a6ce95;
+    font-size:28px;
     margin:50px 0 10px;
 }
 
 .post.post-full h3 {
     color:#9B7361;
-    font-size:32px;
+    font-size:26px;
     margin:30px 0 10px;
     text-decoration: underline;
-}
-.post.post-full h3:before {
-    content:"\00bb\0000a0"; ;
 }
 
 .post.post-full img {
