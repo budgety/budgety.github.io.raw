@@ -142,6 +142,24 @@ h1, h2, h3 {
         margin-bottom:20px;
     }
 
+.post a {
+    text-decoration: underline !important;
+}
+
+.post a[href^="http"]:after {
+    position:relative;
+    bottom:1px;
+    left: 1px;
+    display:inline-block;
+    font-family:'Glyphicons Halflings';
+    -webkit-font-smoothing:antialiased;
+    font-size:90%;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1;
+    content:"\e164";
+}
+
 .post .title {
     color: #a6ce95;
     text-align:center;
