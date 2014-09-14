@@ -5,6 +5,7 @@ title: "On Values, Principles, and Practices"
 tags:
 - software
 - development
+author: jason
 ---
 
 A little over a month ago, Robert C. Martin published an article on the 8th light blog titled [Extreme Programming, a Reflection](http://blog.8thlight.com/uncle-bob/2013/12/10/Thankyou-Kent.html). It's an interesting article that outlines how Extreme Programming (XP) changed the software world forever. After reading the article I was amazed by how many of my programming habits, ideas, and beliefs have been informed by XP. The joke of course being that I had never actually read Kent Beck's book.

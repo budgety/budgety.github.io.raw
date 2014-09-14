@@ -183,6 +183,8 @@ h1, h2, h3 {
  * Author
  ************************/
  .author {
+    background-position: left top;
+    background-repeat: no-repeat;
     background-size: 100px 100px;
     border-radius:100px;
     height:100px;
@@ -192,8 +194,10 @@ h1, h2, h3 {
 
  .author-brian {
     background-image: url('../img/authors/brian.jpeg');
-    background-repeat: no-repeat;
-    background-position: left top;
+ }
+
+ .author-jason {
+    background-image: url('../img/authors/jason.jpeg');
  }
 
 /************************
