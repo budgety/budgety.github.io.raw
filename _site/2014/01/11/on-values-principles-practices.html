@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Scaturro - On Values, Principles, and Practices</title>
+    
+    <meta name="description" content="This article focuses on employing functional composition to perform the common task of saving data">
+    
+    <meta name="author" content="Brian Scaturro">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Fauna+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" title="brianscaturro.com feed" href="http://brianscaturro.com/atom.xml" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46360616-1', 'brianscaturro.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-xs-12">
+                <nav class="navigation">
+                    <ul class="nav nav-pills list-small">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                    </ul>
+                </nav>
+
+                <div class="page-header">
+                    <a href="/">
+                        <div class="logo">
+                            <h1 class="logo-text">budgety</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main role="main" class="row">
+            <div class="col-xs-12">
+
+<article class="post post-full">
+    <h1 class="title">On Values, Principles, and Practices</h1>
+    <p class="meta">
+        <time>January 11, 2014</time> | 
+<a href="/tag/software">software</a>, <a href="/tag/development">development</a>
+    </p>
+    <p>A little over a month ago, Robert C. Martin published an article on the 8th light blog titled <a href="http://blog.8thlight.com/uncle-bob/2013/12/10/Thankyou-Kent.html">Extreme Programming, a Reflection</a>. It’s an interesting article that outlines how Extreme Programming (XP) changed the software world forever. After reading the article I was amazed by how many of my programming habits, ideas, and beliefs have been informed by XP. The joke of course being that I had never actually read Kent Beck’s book.</p>
+
+<p>So now, I am showing up 15 years late to the party. Kent kicks his book off with a treatise on values, principles, and practices. I thought it would be a good practice for me to do my own reflection on this subject, and think about how the current industry I find myself in regards these things.</p>
+
+<h2 id="values">Values</h2>
+<p>As Kent puts it, values bring purpose to practices. XP embraces five values to guide development.</p>
+
+<h3 id="communication">Communication</h3>
+<p>Problems can arise from a lack of communication. The lack of communication can be between developers, between a client and the developers, between the client and the organization, etc.. In my experience, these sort of problems involve doing the wrong thing for lack of clarification, doing too much for lack of understanding, or doing nothing at all for lack of a much needed response.</p>
+
+<p>To be fair, sometimes problems arise from lack of knowledge. We can’t know everything, but chances are someone on your team knows the answer. Communicating that lack of knowledge can go a long way to solving that problem.</p>
+
+<p>The value of communication is one reason I am against one person shows. Some work environments put some kind of odd value on a person’s ability to do work by themselves <em>all of the time</em>. I’ve rarely seen these single person shows be a resounding success. Yes it might be possible, but that doesn’t mean it’s the best solution.</p>
+
+<blockquote>
+  <p>Communication is important for creating a sense of team and effective cooperation.</p>
+</blockquote>
+
+<h3 id="simplicity">Simplicity</h3>
+<p>I think there is tendency for many developers, myself included, to overthink things. There is an odd desire to try to cover every situation or problem that could arise (guilty). We may even go so far as to complicate a problem so we can satisfy some itch to employ a recently learned pattern or tool (guilty). Maybe we want some grand solution that we can later open source for street creds (guilty).</p>
+
+<p>Wherever our drive for extra complexity is coming from, we need to cool it. XP encourages us to ask ourselves “What is the simplest thing that could possibly work?” Naturally that question places a special emphasis on <strong>that could possibly work</strong>. Communication complements simplicity by elminating unecessary requirements and helping us focus on <em>today’s problem</em>.</p>
+
+<h3 id="feedback">Feedback</h3>
+<p>The amount, quality, and frequency of feedback seems to be an overlooked value in my circles. We understand the benefit of stand-ups, but not fully. They are rarely daily, and there is a tendency to focus on “where are we at on this feature” instead of “how is development going, and how can we improve?” We need feedback often and as quickly as possible, and we need time to respond to that feedback.</p>
+
+<p>Once again, our values are tied to one another. Feedback is a good litmus test for simplicity. Simple things are easy to give feedback on, and feedback also allows us the opportunity to simplify things. Naturally communication between team members facilitates good feedback.</p>
+
+<p>When we look at practices, we can see how test driven development and automated tests are great feedback mechanisms.</p>
+
+<blockquote>
+  <p>The sooner you know, the sooner you can adapt.</p>
+</blockquote>
+
+<h3 id="courage">Courage</h3>
+<p>Courage allows us to act in the face of fear. I’ve seen inaction as a result of a developer fearing for their job. I’ve seen brilliant people stay silent for fear of ridicule. It’s become a regular practice to overestimate for fear of consequences on an unmet estimate.</p>
+
+<p>Hopefully you work for a company that doesn’t fire you for first time mistakes. Hopefully your team doesn’t belittle you for not understanding something, and hopefully estimates are truly estimates and not promises. Whatever your circumstances, if fear keeps you from acting in the best interests of your team, then courage will cure what ails you.</p>
+
+<p>One again this value works in concert with the others.</p>
+
+<blockquote>
+  <p>The courage to speak truths, pleasant or unpleasant, fosters communication and trust. The courage to discard failing solutions and seek new ones encourages simplicity. The courage to seek real, concrete answers creates feedback.</p>
+</blockquote>
+
+<h3 id="respect">Respect</h3>
+<p>For some reason, many developers place value on the amount of esoteric knowledge someone has. The reality is, a team is full of people making varying kinds of contributions - that is real flesh and blood humans who wish to bring value to the project.</p>
+
+<p>Everyone involved in a project has value as a person, and software succeeds when team members respect one another, and respect the project. I like to think respect fosters education and growth. Respect means no backstabbing or gossip, and it means a willingness to acknowledge gifts and foster understanding where it might be lacking.</p>
+
+<p>Things won’t get done if people don’t care about eachother or the project.</p>
+
+<h2 id="principles">Principles</h2>
+<p>Principles act as the bridge between values and practices. Principles are domain-specific guidelines for life - that is I am a software developer, and these guidelines apply to me as such. Principles may actually guide our actions as developers.</p>
+
+<h3 id="humanity">Humanity</h3>
+<p>People make software. Human beings write code. Forgetting this can create a pretty unbearable environment. I certainly don’t want to feel like a number in the system. People are social creatures, and this is a principle that ought to guide the creation of teams instead of lone rangers.</p>
+
+<p>People need interaction and intimacy. People want to feel like they are contributing to the team. It’s nice to know you are bringing value, and that you are being given opportunities to grow. Knowing you work with humans encourages you to act towards these basic needs and build trust within the team.</p>
+
+<p>I work for a company that is quite fond of using the term “resource” to refer to people that are availble for certain tasks. Now I know these people well enough to understand there is no ill intention behind it. Perhaps I will use this paragraph to politely discourage it’s use in favor of terms like “person”, “consultant”, or “Brian”. Something a little more humane ;)</p>
+
+<h3 id="economics">Economics</h3>
+<p>Somebody has to pay for this stuff. Our goal should be to bring the highest amount of value as early as possible. Communication is key here. We need to find out what will bring the most value early, and try to accomodate that sooner. The sooner we can make money with our efforts, the better.</p>
+
+<p>I’ve seen it way too many times - indeed I’ve been on projects - where a team will try to gather a laundry list of requirements and try the “lowest hanging fruit” method. This can leave software looking incomplete and invaluable for a good stretch of the project. Scratch that, the software <em>will</em> be incomplete and invaluable for a good stretch of the project.</p>
+
+<h3 id="mutual-benefit">Mutual Benefit</h3>
+<p>Let’s do things that benefit everyone. We shouldn’t do things that benefit us at the cost of others. I might get my feature done faster if I cowboy code that business and omit tests, but the future inheritors of the project will pay dearly for my sins when they try to decipher my cryptic names and copy pasta.</p>
+
+<p>Things like writing tests, refactoring, and naming methods, functions, variables, and classes clearly not only benefits you, but it also benefits all future developers which in turn benefits the customer. Less time spent on messes, means less cost. We should generally discourage “Every man and woman for themselves” approaches to software development. </p>
+
+<blockquote>
+  <p>Mutual benefit in XP is searching for practices that benefit me now, me later, and my customer as well.</p>
+</blockquote>
+
+<h3 id="self-similarity">Self-Similarity</h3>
+<p>I’m not sure I entirely understood this principle. What I gathered was: the rythms, structures, and practices you have successfully used before are a good starting point. They may not fit perfectly for your given context, but they are a good starting point.</p>
+
+<p>I’ve created presentation agnostic baselines for <a href="https://github.com/brianium/driven">PHP</a> and <a href="https://github.com/OSTUSA/ndriven">.NET</a> systems for just this reason.</p>
+
+<h3 id="improvement">Improvement</h3>
+<p>There is no silver bullet. The bottom line is to pick a starting point and actually start. You can keep improving from there. I think alot of our time is wasted trying to figure out “one size fits all” processes. </p>
+
+<blockquote>
+  <p>In software development, “perfect” is a verb, not an adjective</p>
+</blockquote>
+
+<h3 id="diversity">Diversity</h3>
+<p>Diversity says we need differences on the team. People with different backgrounds and apptitudes. Diversity dictates that differing opinions and ideas on the same problem all need to be valued.</p>
+
+<p>When conflict arises, it ought to be resolved productively. </p>
+
+<p>For me its tempting to value perfect homogeny, but this just creates comfort, not valuable software.</p>
+
+<h3 id="reflection">Reflection</h3>
+<p>We ought to think about what we are doing, and how we can improve upon things when they are complete. Reflection is important for the individual as well as the team.</p>
+
+<p>Reflection has allowed me to learn no brainer lessons throughout my career. Lessons like “do not reinvent the wheel” and “stop testting getters and setters”. This might be common sense to some people, but for a vast majority of us, we learn these things by reflecting on what we did and what did and did not add value.</p>
+
+<h3 id="flow">Flow</h3>
+<p>Let’s deliver a steady flow of valuable software. We should not shoot for big chunks of value, but we should shoot for small but frequent chunks of value.</p>
+
+<p>This can be accomplished with things like daily builds and deploys. Let’s end our day with working software. I’ve seen flow get interupted all too easily and then never returned to. If there is a problem in communication or knowledge that disrupts the flow, we should get back to it as soon as possible.</p>
+
+<p>Flow is another principle that is adversely affected by “lowest hanging fruit” methods of development.</p>
+
+<h3 id="opportunity">Opportunity</h3>
+<p>It takes a pretty major shift in attitude to perceive problems as opportunities for growth and learning, especially when problems are compounding. I’ve been so overwhelmed by problems before that It’s been easy for me to tuck into myself and just try to survive.That is a great way to burn out quickly and start thinking about self rather than team.</p>
+
+<p>It pays to analyze problems and use them as opportunities to try something that works better.</p>
+
+<blockquote>
+  <p>Part of being extreme is consciously choosing to transform each problem into an opportunity: an opportunity for personal growth, deepening relationships, and improved software.</p>
+</blockquote>
+
+<h3 id="failure">Failure</h3>
+<p>Failure is not a waste so long as it imparts knowledge. Courage plays into this one. Too many of us are afraid to fail. I’ve wasted time on “spikes” that serve a purpose of research. This seems more wasteful than trying several solutions to the problem. </p>
+
+<p>There might be three possible solutions, and all but one fail. Maybe all of them fail. However, those attempts and the knowledge they impart are much more valuable than me browsing stack overflow for 8 hours.</p>
+
+<blockquote>
+  <p>When you don’t know what to do though, risking failure can be the shortest, surest road to success.</p>
+</blockquote>
+
+<h3 id="quality">Quality</h3>
+<p>This one gets to me a lot. I feel like there is this common notion that we can get things done faster if we sacrfice quality. This might be right in the short term, but there is always a price to pay. We may skip tests because “there is no room in the budget for them” as if testing is some line item a client needs to pay for.</p>
+
+<p>The quality generated by tests speeds up the process down the road. We implement features and fix bugs faster. The time we spent creating an easy to understand metaphor enables new comers to more easily understand the problem. There is also the added benefit that I am proud of the work I do.</p>
+
+<p>Quality is measured different ways, but the main point is to always do the best you can.</p>
+
+<h3 id="baby-steps">Baby Steps</h3>
+<p>I am terrible at this. When I see a need for a change, I am typically pulled towards “go big or go home.” This usually ends up being very disappointing when I come to grips with the fact that I am a human being and only capable of so much within a given period of time.</p>
+
+<p>No need to recoil from failed big changes if you take baby steps. Celebrating small victories keeps a team motivated.</p>
+
+<h3 id="accepted-responsibilty">Accepted Responsibilty</h3>
+<p>“Here is your project Brian; we estimated it at 1000 hours. Good luck!” 
+XP practices dictate that whoever signs up for work is responsible for estimating it. If I accept the task of implementing a story, then I am responsible for everything that goes into that implementation.</p>
+
+<p>As Kent puts it, with responibility comes authority. If my project manager tells me how to do my work but does not share in that work or any resulting consequences, then authority and responsibility are misaligned. We can’t get or give meaningful feedback to someone who doesn’t know what is going on.</p>
+
+<p>Not knowing who is responsible for what, and who is the authority on a given item leads to some ugly kinds of paralysis. You might hear something like “why is this outstanding issue everyone’s lowest priority?” The answer might be because nobody has a clear understanding of their responsibility, and therefore has no ownership of the issue.</p>
+
+<p>One of the fallouts of XP seems to be an over abundance of “process experts.” There are plenty of certified SCRUM masters who know process but don’t know a thing about the code that their team is writing. For some reason this seems to be a trend in my native midwest.</p>
+
+<h2 id="practices">Practices</h2>
+<p>Practices are the things that XP teams actually do! The experiences I have had have definitely been impacted by some of these things, but they are by no means ubiquitous. Some of these practices have made their way into software development as a whole, and therefore show up in different situations for me.</p>
+
+<p>Some of these practices sound absolutely ridiculous to companies in my neck of the woods, and therefore our exposure to them has been limited - much to our chagrin. </p>
+
+<h3 id="sit-together">Sit Together</h3>
+<p>Do what it says. Sit together. Sit close enough where you can communicate effectively and enjoy shared accomplishments. I think most of us who don’t work remotely have figured this out. This seems to be a generally accepted and enjoyed practice.</p>
+
+<h3 id="whole-team">Whole Team</h3>
+<p>This practice states that we should include people on the team with all skills and perspectives necessary to see the project succeed. I still see problems with lone ranger development. On one level is flattering to have people put that much trust in you, on another level its frustrating because being alone is depressing and not as effective as being with others. The bright side is I have noticed this falling out of favor more and more; some of us catch up a little later in life.</p>
+
+<p>For smaller greenfield projects, Whole Team might consist of a backend developer exposing an API, and a front end developer consuming that API. We may hire a designer to give us a style guide to meet that need of the team.</p>
+
+<p>When you’re organization has a group of people with varying skills and backgrounds, there is this desire to place these “resources” into multiple teams, therefore fracturing teams. It is important to make is the team’s responsibility to respond to the client instead of the programmers - otherwise individuals will suffer from fractured thinking.</p>
+
+<p>We are still ironing this out. </p>
+
+<blockquote>
+  <p>Identifying with this program on Mondays and Thursdays and that program on Tuesdays, Wednesdays, and Fridays, without having other programmers to identify with, destroys the sense of “team” and is counterproductive.</p>
+</blockquote>
+
+<h3 id="informative-workspace">Informative Workspace</h3>
+<p>Someone should be able to walk into a workspace and get a general feel for how the project is going. With the over emphasis on process and tooling, this has become less obvious.</p>
+
+<p>I may be able to communicate with other team members via a Jira board, but that is closed to some of the other vested parties. I think it would be nice to favor paper story cards on the wall - just for transparency to anyone in our work space.</p>
+
+<p>We have tried to make a “digital” workspace informative by granting Jira access to clients, or displaying burn down charts on walls. However, this doesn’t really make our “Sit Together” workspace all that informative.</p>
+
+<h3 id="energized-work">Energized Work</h3>
+<p>Work as many hours as you can be productive and only as many hours as you can sustain. We are problem solvers, not machines. A rested mind is better at solving problems. Period.</p>
+
+<p>I’ve worked on projects with people where I see commit notifications coming through at 11pm. Often times these people aren’t billing for the added effort. It’s an attempt at grabbing back control - to take the pressure off of deadlines and feel comfortable. The irony is that the exhausted programming will likely introduce defects and add less value than if the programmer were rested.</p>
+
+<p>Some companies may incentivize “billable hours” by creating contests that reward people who can bill the most in a given week - rewarding the depraved soul that puts in an 80 hour work week. In my opinion, this is in direct violation of the Humanity principle and is like paying people to do poor work.</p>
+
+<h3 id="pair-programming">Pair Programming</h3>
+<p>This is perhaps the most misunderstood practice. It is worthy of a book on its own, and indeed many have been written. This practice has not been common at the companies I have worked for. According to XP, pair programmers:</p>
+
+<ul>
+  <li>Keep eachother on task.</li>
+  <li>Brainstorm refinements to the system.</li>
+  <li>Clarify ideas.</li>
+  <li>Take initiative when their partner is stuck, thus lowering frustration.</li>
+  <li>Hold eachother to the team’s practices.</li>
+</ul>
+
+<p>There is still a misconception that pair programming is paying 2 people to do the work of one. It just seems like double cost to clients, and therefore is typically discouraged.</p>
+
+<p>I think the misconceptions arise because people believe pair programming allows no time for privacy or personal thinking, where XP says both are necessary. The key is to let private time result in new ideas/information being brought to the team.</p>
+
+<p>I am currently reading <a href="http://pragprog.com/book/jkrp/remote-pairing">Remote Pairing: Collaborative Tools for Distributed Development</a>, and pursuing a pair project with a friend and coworker to understand the value better, and I do believe there is some real value there.</p>
+
+<h3 id="stories">Stories</h3>
+
+<h3 id="weekly-cycle">Weekly Cycle</h3>
+
+<h3 id="quarterly-cycle">Quarterly Cycle</h3>
+
+<h3 id="slack">Slack</h3>
+
+<h3 id="ten-minute-build">Ten-Minute Build</h3>
+
+<h3 id="continuous-integration">Continuous Integration</h3>
+
+<h3 id="test-first-programming">Test-First Programming</h3>
+
+<h3 id="incremental-design">Incremental Design</h3>
+
+</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'brianscaturro'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="copy">Brian Scaturro &amp; Jason Sich &copy; 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+port: 4000
+permalink:   date
+main_title:  "Brian Scaturro"
+description: "The blog of Brian Scaturro"
+paginate: 5
+paginate_path: "page/:num"

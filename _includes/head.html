@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.main_title }} - {{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}">
+    {% else %}
+    <meta name="description" content="{{site.description}}">
+    {% endif %}
+    <meta name="author" content="Brian Scaturro">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Fauna+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" title="brianscaturro.com feed" href="http://brianscaturro.com/atom.xml" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% include tracking.html %}
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-xs-12">
+                <nav class="navigation">
+                    <ul class="nav nav-pills list-small">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                    </ul>
+                </nav>
+
+                <div class="page-header">
+                    <a href="/">
+                        <div class="logo">
+                            <h1 class="logo-text">budgety</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main role="main" class="row">
+            <div class="col-xs-12">

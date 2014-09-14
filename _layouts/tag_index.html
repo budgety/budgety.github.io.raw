@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+{% if post != site.posts.first %}
+<div class="separator"></div>
+{% endif %}
+<div class="post">
+	<h2 class="title">
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	</h2>
+  <p class="meta">
+    {% include post/meta.html %}
+  </p>
+  <p class="excerpt">
+    {{ post.excerpt }}
+  </p>
+</div>
+{% endfor %}
