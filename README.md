@@ -1,3 +1,3 @@
-My  Blog
---------
+Budgety  Blog
+-------------
 Write things!
