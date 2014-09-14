@@ -4,19 +4,25 @@ title: Space Station
 ---
 
 {% for post in paginator.posts %}
-<div class="post">
+<div class="post row">
 
-  <div title="by {{ post.author }}" class="author author-{{ post.author }}">
+  <div class="col-md-3">
+    <div title="by {{ post.author }}" class="author author-{{ post.author }}"></div>
+    <p class="text-center hidden-sm hidden-xs">
+      by <span class="author-name">{{post.author}}</span>
+    </p>
   </div>
-	<h2 class="title">
-	    <a href="{{ post.url }}">{{ post.title }}</a>
-	</h2>
-  <p class="meta">
-    {% include post/meta.html %}
-  </p>
-  <p class="excerpt">
-    {{ post.excerpt | truncatewords:50 }}
-  </p>
+  <div class="col-md-9">
+    <h2 class="title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p class="meta">
+      {% include post/meta.html %}
+    </p>
+    <p class="excerpt">
+      {{ post.excerpt | truncatewords:50 }}
+    </p>
+  </div>
 </div>
 
 <hr />

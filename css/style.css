@@ -173,6 +173,10 @@ h1, h2, h3 {
     font-size:32px;
 }
 
+.post.post-full .meta {
+    margin-bottom:40px;
+}
+
 .post.post-full h2 {
     color: #a6ce95;
     font-size:28px;
@@ -183,6 +187,7 @@ h1, h2, h3 {
     color:#9B7361;
     font-size:26px;
     margin:30px 0 10px;
+    text-transform: none;
     text-decoration: underline;
 }
 
@@ -193,6 +198,22 @@ h1, h2, h3 {
 
 .post.post-full .code-snippet {
     margin-bottom:30px;
+}
+
+
+@media (min-width:1025px) { 
+
+    .post .author {
+        margin-top:20px;
+    }
+
+    .post .meta, .post .title {
+        text-align: left;
+    }
+
+    .post.post-full .meta, .post.post-full .title {
+        text-align: center;
+    }
 }
 
 /************************
@@ -214,6 +235,10 @@ h1, h2, h3 {
 
  .author-jason {
     background-image: url('../img/authors/jason.jpeg');
+ }
+
+ .author-name {
+    text-transform: capitalize;
  }
 
 /************************
@@ -252,3 +277,10 @@ h1, h2, h3 {
     margin:0;
     padding: 10px 0;
  }
+
+ /************************
+  * Misc
+  ************************/
+.text-center {
+    text-align: center;
+}
