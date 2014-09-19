@@ -4,7 +4,7 @@
  <title>Brian Scaturro</title>
  <link href="http://brianscaturro.com/atom.xml" rel="self"/>
  <link href="http://brianscaturro.com/"/>
- <updated>2014-09-14T16:15:10-04:00</updated>
+ <updated>2014-09-18T22:14:43-04:00</updated>
  <id>http://brianscaturro.com/</id>
  <author>
    <name>Brian Scaturro</name>
@@ -13,68 +13,48 @@
 
  
  <entry>
-   <title>On Values</title>
-   <link href="http://brianscaturro.com/2014/02/03/on-values.html"/>
-   <updated>2014-02-03T00:00:00-05:00</updated>
-   <id>http://brianscaturro.com.com/2014/02/03/on-values</id>
-   <content type="html">&lt;p&gt;A little over a month ago, Robert C. Martin published an article on the 8th light blog titled &lt;a href=&quot;http://blog.8thlight.com/uncle-bob/2013/12/10/Thankyou-Kent.html&quot;&gt;Extreme Programming, a Reflection&lt;/a&gt;. It’s an interesting article that outlines how Extreme Programming (XP) changed the software world forever. After reading the article I was amazed by how many of my programming habits, ideas, and beliefs have been informed by XP. The joke of course being that I had never actually read Kent Beck’s book.&lt;/p&gt;
+   <title>New Begginings</title>
+   <link href="http://brianscaturro.com/2014/09/18/on-values.html"/>
+   <updated>2014-09-18T00:00:00-04:00</updated>
+   <id>http://brianscaturro.com.com/2014/09/18/on-values</id>
+   <content type="html">&lt;p&gt;I have never had a budget in my life. I have always worked to live, and I have considered each and every paycheck to be a giant discretionary fund. Throw in a “everyone needs credit” mentality into the mix, and you have a powder keg of debt waiting to explode. I definitely need a budget, and for the first time in my life I am taking steps towards that goal.&lt;/p&gt;
 
-&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
-&lt;p&gt;As Kent puts it, values bring purpose to practices. XP embraces five values to guide development.&lt;/p&gt;
+&lt;h2 id=&quot;why-i-need-a-budget-and-you-might-too&quot;&gt;Why I need a budget (and you might too)&lt;/h2&gt;
 
-&lt;h3 id=&quot;communication&quot;&gt;Communication&lt;/h3&gt;
-&lt;p&gt;Problems can arise from a lack of communication. The lack of communication can be between developers, between a client and the developers, between the client and the organization, etc.. I don’t know about you, but I don’t care for operating in complete ignorance. It’s no fun completing something only to find out it’s not what the client asked for. Why spin on a problem for several days when your neighbor has always known the answer?&lt;/p&gt;
+&lt;p&gt;At the ripe old age of 28, I have had a fairly successful career in software engineering. If we are looking at salary alone, by all accounts my family and I should be just fine. However, I have learned a few tricks to making my income work against me.&lt;/p&gt;
 
-&lt;p&gt;As I grow, I am forced to realize that I don’t know everything. Communication is a valuable asset when it is used to inform others of what you don’t know. Chances are someone else does know, and your admission can lead to personal learning and team success.&lt;/p&gt;
+&lt;p&gt;Credit cards, a mortgage, a mounting pile of online subscriptions, and a “spend first, never ask questions later” mentality have given my family several televisions, 2 playstations, an xbox, and absolutely no hope of retirement.&lt;/p&gt;
 
-&lt;p&gt;The value of communication is one reason I am against one person shows. Some work environments put some kind of odd value on a person’s ability to do work by themselves &lt;em&gt;all of the time&lt;/em&gt;. I’ve rarely seen these single person shows be a resounding success, and being alone deprives us of one of our most basic needs as humans to be social.&lt;/p&gt;
+&lt;p&gt;Increased salary has never addressed the problem, and I have a feeling this is the case for a lot of people.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Communication is important for creating a sense of team and effective cooperation.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
 
-&lt;h3 id=&quot;simplicity&quot;&gt;Simplicity&lt;/h3&gt;
-&lt;p&gt;I think there is a tendency for many developers, myself included, to overthink things. There is an odd desire to try to cover every situation or problem that could arise (guilty). We may even go so far as to complicate a problem so we can satisfy some itch to employ a recently learned pattern or tool (guilty). Maybe we want some grand solution that we can later open source for street creds (guilty).&lt;/p&gt;
+&lt;p&gt;Whenever I want to learn something new in the realm of software, I find an expert, grab a book, and start applying the principles. Budgeting seemed like it could operate on the same level. My good friend and co-blogger Jason pointed me towards Dave Ramsey and his &lt;a href=&quot;http://www.amazon.com/Total-Money-Makeover-Classic-Financial/dp/1595555277/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1411090654&amp;amp;sr=1-1&amp;amp;keywords=total+money+makeover&quot;&gt;Total Money Makeover&lt;/a&gt; book.&lt;/p&gt;
 
-&lt;p&gt;Wherever our drive for extra complexity is coming from, we need to cool it. XP encourages us to ask ourselves “What is the simplest thing that could possibly work?” Naturally that question places a special emphasis on &lt;strong&gt;that could possibly work&lt;/strong&gt;. Communication complements simplicity by eliminating unecessary requirements and helping us focus on &lt;em&gt;today’s problem&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There is a lot of practical advice in this book, and reading it has been a catalyst for action and has given me a general interest in the practice of budgeting and setting financial goals. &lt;/p&gt;
 
-&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
-&lt;p&gt;The amount, quality, and frequency of feedback seems to be an overlooked value - at least in my experience. We understand the benefit of stand-ups, but not fully. They are rarely daily, and there is a tendency to focus on “where are we at on this feature” instead of “how is development going, and how can we improve?” We need feedback often and as quickly as possible, and we need time to respond to that feedback.&lt;/p&gt;
+&lt;h3 id=&quot;the-envelope-system&quot;&gt;The envelope system&lt;/h3&gt;
+&lt;p&gt;This is one idea that I was a little skeptical of at first. I live and breath in a digital world, so the concept of &lt;strong&gt;physical&lt;/strong&gt; money in a &lt;strong&gt;physical&lt;/strong&gt; envelope felt unnatural to me. Lesson learned. &lt;/p&gt;
 
-&lt;p&gt;Once again, our values are tied to one another. Feedback is a good litmus test for simplicity. Simple things are easy to give feedback on, and receiving feedback allows us the opportunity to simplify things. Naturally communication between team members facilitates good feedback.&lt;/p&gt;
+&lt;p&gt;My wife Jennie and I have been setting down the budget together and have been filling the following envelopes with a fixed amount of cash: grocery, baby, clothing, hospitality, date night, and discretionary. Once the envelope is depleted, that is it. No more reaching for the credit card and no pulling from savings; we just have to deal with it.&lt;/p&gt;
 
-&lt;p&gt;When we look at practices, we can see how test driven development and automated tests are great feedback mechanisms.&lt;/p&gt;
+&lt;p&gt;The side effects of this simple practice are amazing. It has allowed us to have an &lt;strong&gt;ACTUAL&lt;/strong&gt; plan.  It is teaching us patience and consideration for the things we spend our money on. We are allowing ourselves just 30 dollars each for discretionary funds, and making that last for an entire paycheck has caused a total shift in thinking.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;The sooner you know, the sooner you can adapt.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I haven’t entirely convinced that &lt;strong&gt;physical&lt;/strong&gt; is the best method, and this new system has certainly given me some fun brainstorming sessions on how technology might &lt;em&gt;simplify&lt;/em&gt; this process - thinking in the vein of services like &lt;a href=&quot;https://www.mint.com/?cid=ppc_gg_b_stan_403-5273031-13814&amp;amp;utm_medium=cpc&amp;amp;utm_source=google&amp;amp;utm_campaign=SBUS__Brand%20Mint%20Core%2FGXUS__Brand%20Mint%20Core&amp;amp;utm_keyword=mint&amp;amp;KID=42f4d685-53c9-9228-2a0b-00002a2f8a54&amp;amp;gclid=CjwKEAjwheqgBRD5vOfR45az5AESJABy4m8-NB88k-OY-Y1MG9dehKfFH7Etu7R09MW5eMPPdMrEnRoCmL3w_wcB&quot;&gt;Mint&lt;/a&gt;, but maybe with an easier touch.&lt;/p&gt;
 
-&lt;h3 id=&quot;courage&quot;&gt;Courage&lt;/h3&gt;
-&lt;p&gt;Courage allows us to act in the face of fear. I’ve seen inaction as a result of a developer fearing for their job. I’ve seen brilliant people stay silent for fear of ridicule. It’s become a regular practice to overestimate for fear of consequences on an unmet estimate.&lt;/p&gt;
+&lt;h3 id=&quot;the-emergency-fund&quot;&gt;The emergency fund&lt;/h3&gt;
+&lt;p&gt;After recently purchasing a home, I was amazed at how quickly Jennie and I were able to return to a “paycheck-to-paycheck” lifestyle. By using the envelope system and having a plan, we have been able to rebuild an emergency fund. It took a few paychecks after starting, but we have been able to set aside $1000 for a rainy day.&lt;/p&gt;
 
-&lt;p&gt;Hopefully you work for a company that doesn’t fire you for first time mistakes. Hopefully your team doesn’t belittle you for not understanding something, and hopefully estimates are truly estimates and not promises. Whatever your circumstances, if fear keeps you from acting in the best interests of your team, then our lack of courage becomes counterproductive.&lt;/p&gt;
+&lt;p&gt;The goal behind this is to reduce the temptation to reach for those credit cards and have a small cushion to cover any unexpected financial burdens that can (and will) show up.&lt;/p&gt;
 
-&lt;p&gt;Once again this value works in concert with the others: communicate honestly, encourage simplification of the complex, and give feedback - even when it hurts.&lt;/p&gt;
+&lt;p&gt;Maybe I am being too honest here, but 3 paychecks to actually have a small savings was fast for us. It is a good feeling to feel like we are gaining a little control over our finances and see that we are capable of meeting goals.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;The courage to speak truths, pleasant or unpleasant, fosters communication and trust. The courage to discard failing solutions and seek new ones encourages simplicity. The courage to seek real, concrete answers creates feedback.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;The envelope system is getting easier, and meeting the emergency fund goal has empowered us to set more goals. We have recently laid out all of our debt and have started on steps to pay that all down. Debt free sounds good.&lt;/p&gt;
 
-&lt;h3 id=&quot;respect&quot;&gt;Respect&lt;/h3&gt;
-&lt;p&gt;For some reason, many developers place value on the amount of esoteric knowledge someone has. The reality is, a team is full of people making varying kinds of contributions - that is real flesh and blood humans who wish to bring value to the project.&lt;/p&gt;
+&lt;p&gt;I’ve been discussing a lot of these things with Jason, and together we have enjoyed discussing how to make these things easier, more interesting, and more rewarding. We are interested in exploring how to make budgeting and financial goals easier - both for ourselves and from a technology perspective.&lt;/p&gt;
 
-&lt;p&gt;Everyone involved in a project has value as a person, and software succeeds when team members respect one another, and respect the project. I like to think respect fosters education and growth. Respect means no backstabbing or gossip, and it means a willingness to acknowledge gifts and foster understanding where it might be lacking.&lt;/p&gt;
-
-&lt;p&gt;Things won’t get done if people don’t care about eachother or the project.&lt;/p&gt;
-
-&lt;h2 id=&quot;team-values&quot;&gt;Team Values&lt;/h2&gt;
-&lt;p&gt;These five values are straight forward, but I believe they would make a huge impact if embraced. Values aren’t just prescribed by a book and left for teams and individuals to follow blindly. We are free to choose our own values, but as XP puts it:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What is most important is aligning team behavior to team values.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If I can take one thing away from reading up on these values, it is the emphasis on aligning team behavior to team values. It is the emphasis on whole team that makes XP so appealing to me. Imagine what can be accomplished when a group of passionate people act based on shared values.&lt;/p&gt;
+&lt;p&gt;This blog is incentive for me to be transparent about my financial struggles and successes, and is also a good way to catalog ideas and methods with a like minded friend. I’m looking forward to improving in this realm, and hopefully helping and gaining incite from others who are on this path.&lt;/p&gt;
 </content>
  </entry>
  

@@ -165,6 +165,16 @@ h1, h2, h3 {
     text-align:center;
 }
 
+    .post .title a:link,
+    .post .title a:visited {
+        color: #a6ce95 !important;
+        text-decoration: none !important;
+    }
+
+    .post .title a:hover {
+        color:#9B7361 !important;
+    }
+
 .post .meta {
     text-align:center;
 }
