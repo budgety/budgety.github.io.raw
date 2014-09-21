@@ -17,4 +17,4 @@ rm -r "$TARGET/bin"
 rm -r "$TARGET/_site/bin"
 
 TIMESTAMP=$(date)
-cd $TARGET && git commit -am "built $TIMESTAMP" && git push origin master
+cd $TARGET && git add . && git commit -am "built $TIMESTAMP" && git push origin master
