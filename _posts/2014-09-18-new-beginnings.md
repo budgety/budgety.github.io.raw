@@ -5,7 +5,9 @@ title: "New Beginnings"
 author: brian
 ---
 
-I have never had a budget in my life. I have always worked to live, and I have considered each and every paycheck to be a giant pile of fun money. Throw in a “everyone needs credit” mentality into the mix, and you have a powder keg of debt waiting to explode. If I hope to live free of debt, have peace of mind, and build any sort of wealth - then I definitely need a budget. For the first time in my life I am taking steps towards that goal.
+I have never had a budget in my life. I have always worked to live, and I have considered each and every paycheck to be a giant pile of fun money. Throw in a “everyone needs credit” mentality into the mix, and you have a powder keg of debt waiting to explode. 
+
+If I hope to live free of debt, have peace of mind, and build any sort of wealth - then I definitely need a budget. For the first time in my life I am taking steps towards that goal.
 
 ##Why I need a budget (and you might too)
 
