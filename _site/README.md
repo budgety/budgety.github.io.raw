@@ -1,3 +1,0 @@
-Budgety  Blog
--------------
-Write things!
