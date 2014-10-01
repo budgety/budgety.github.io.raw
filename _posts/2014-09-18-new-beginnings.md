@@ -30,7 +30,7 @@ My wife Jennie and I have been setting down the budget together and have been fi
 
 The envelope system is one idea that I was a little skeptical of at first. I live and breath in a digital world, so the concept of physical money in a physical envelope felt unnatural to me. The real value has been breaking bad old habits, and learning new beneficial ones.
 
-The side effects of this simple practice are amazing. It has allowed us to have an ACTUAL plan.
+The side effects of this simple practice are amazing. It has allowed us to have an **ACTUAL plan**.
 
 ##The Future
 
